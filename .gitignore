@@ -1,6 +1,1 @@
 *.DS_Store
-
-#exclude jpeg, jpg, png
-*.jpeg
-*.jpg
-*.png
