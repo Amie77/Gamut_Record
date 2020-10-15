@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gamut Record</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section>
+
+            <nav id="main-nav" class="navigation-bar">
+
+                <ul class="contain">
+
+                    <li class="contain-item"><a href="index.html" id="navigation-link">CODE&BRAND</a></li>
+
+                    <!-- <li><a href="brand.html">BRANDING</a></li> -->
+
+                    <li class="contain-item"><a href="listing.html">PRODUCTS</a></li>
+
+                    <li class="contain-item"><a href="cart.html">CART</a></li>
+
+                    <li class="contain-item"><a href="cite.html">CITATIONS</a></li>
+                </ul>
+
+            </nav>
+
+        </section>
+
+        <!-- <section class="box">
+
+            <div class="hero"> -->
+        <!-- The hero image was created by me -->
+        <!-- Code Reference: https://www.w3schools.com/howto/howto_css_hero_image.asp -->
+        <!-- <div class="herohead">
+                    <h1 id="head1">Gamut Record</h1>
+                    <p>A Contemporary Record Store</p> -->
+        <!-- Code Reference: https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link -->
+        <!-- <a href="#listing" class="button">Start Shopping</a>
+                </div>
+            </div>
+
+
+        </section> -->
+
+
+    </header>
+
+
+    <section class="category" id="cart">
+
+        <h2 class="page">Shopping Cart</h2>
+        <div class="box-code">
+            <!-- Code Reference
+            https://designmodo.com/shopping-cart-ui/-->
+
+            <div class="cart-item">
+                <div class="description">
+                    <h3 class="cart-album">Album Name</h3>
+                </div>
+                <div class="cart-price">$19.99</div>
+                <div class="delete">
+                    <p><button>Remove</button></p>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="description">
+                    <h3 class="cart-album">Album Name</h3>
+                </div>
+                <div class="cart-price">$30.99</div>
+                <div class="delete">
+                    <p><button>Remove</button></p>
+                </div>
+            </div>
+            <!-- 
+            <div class="cart-item">
+                <h3 class="cart-album">Album Name</h3>
+                <span class="cart-price">$30.99</span>
+                <p><button>Remove</button></p>
+            </div> -->
+
+            <div class="payment" id="pay-form">
+                <span class="total-price">Total Amount: $50.98</span>
+                <p>Please select a payment method: </p>
+                <!-- Code References
+            https://www.w3schools.com/tags/att_input_type_radio.asp
+            https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_type -->
+                <form id="radio">
+                    <input type="radio" id="cc" name="type" value="cc">
+                    <label for="cc">Credit Card</label><br><br>
+                    <input type="radio" id="paypal" name="type" value="paypal">
+                    <label for="paypal">Paypal</label><br><br>
+                </form>
+
+                <p><button>Checkout</button></p>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
