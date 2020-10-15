@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Stage 1</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+   
+      <h1 class= "heading">Gamut Record Style Guide</h1>
+     
+
+      <!-- Top navigation -->
+    <header>
+  
+      <nav>
+        <!--
+        <div>
+          <img src="img/logo.png" alt="logo" class="logo">
+        </div>
+      -->
+
+       <ul>        
+        <li><a href="STAGE01.html">STYLE GUIDE</a></li>
+        <li><a href="productList.html">PRODUCT LIST</a></li>
+        <li><a href="checkoutPage.html">CHECKOUT PAGE</a></li>
+        <li><a href="#Chart">CITATION</a></li>
+      </ul>
+      </nav>
+    
+
+   </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2 style = "font-family:'Avenir'">Interactive Elements</h2>
+
+      <!-- A navigation link -->
+      <section class="element">
+        <h3>In-text link</h3>
+        <div>
+        <a href="#Home">HOME</a>
+        <a href="#New">NEW</a>
+        <a href="#Collection">COLLECTION</a>
+        <a href="#Chart">CHART</a>
+        <a href="#Contact">CONTACT</a>
+       </div>
+       <br>
+
+        <code>
+            HTML Sample Code: <br>
+            &lt;a href="#" class="in-text-link"&gt;This is an in-text link&lt;/a&gt;
+        </code>
+
+      </section>
+
+
+      <!-- A navigation link -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+      
+      <nav>
+        <!--
+        <div>
+          <img src="img/logo.png" alt="logo" class="logo">
+        </div>
+      -->
+
+       <ul>        
+        <li><a href="#Home">HOME</a></li>
+        <li><a href="#New">NEW</a></li>
+        <li><a href="#Collection">COLLECTION</a></li>
+        <li><a href="#Chart">CHART</a></li>
+        <li><a href="#Contact">CONTACT</a></li>
+      </ul>
+      </nav>
+
+       <br>
+
+        <code>
+
+            HTML Sample Code: <br><br>
+            &lt;nav&gt;<br>
+            &lt;ul&gt;<br>
+            &lt;li&gt;
+            &lt;a href="#" class="in-text-link"&gt;This is an in-text link&lt;/a&gt;
+            &lt;/li&gt;<br>
+            &lt;li&gt;
+            &lt;a href="#" class="in-text-link"&gt;This is an in-text link&lt;/a&gt;
+            &lt;/li&gt;<br>
+             &lt;li&gt;
+            &lt;a href="#" class="in-text-link"&gt;This is an in-text link&lt;/a&gt;
+            &lt;/li&gt;<br>
+
+            &lt;/ul&gt;<br>
+            &lt;/nav&gt;<br>
+            
+        </code>
+
+
+      </section>
+
+      <!-- A submit and reset button for forms -->
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <div>
+        <a class="button-nav" href="#">Submit</a>
+        <a class="button-nav" href="#">Reset</a>
+       </div>
+       <br>
+        <code>
+            HTML Sample Code:<br>
+            &lt;a href="#" class="button-nav" role="button"&gt;Submit&lt;/a&gt;<br>
+            &lt;a href="#" class="button-nav" role="button"&gt;Reset&lt;/a&gt;
+        </code>
+      </section>
+
+      <!-- A text input and its label -->
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+      
+        <div class="padding30"></div>
+        <form>
+        <label> First Name: </label>
+        <div class="padding30"></div>
+
+        <input type = "text" id= "FName" name="FName">
+
+        <div class="padding30"></div>
+
+        <label> Last Name: </label>
+       </form>
+
+        <div class="padding30"></div>
+        
+        <input type = "text" id= "LName" name="LName">
+
+        <div class="padding30"></div>
+         <code>
+            HTML Sample Code: <br>
+            &lt;label for="Name"&gt;First Name: &lt;/label&gt;
+            &lt;input type="text" id="Name"&gt;<br>
+            &lt;label for="Name"&gt;Last Name: &lt;/label&gt;
+            &lt;input type="text" id="Name"&gt;
+        </code>
+
+
+      </section>
+
+      <!-- A radio button input field and a label -->
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <div>
+          <form action="/action_page.php" >
+            <label class="radio">Golden
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          </label>
+          <label class="radio">Remix
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+          </label>
+          <label class="radio">Special
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+          </label>
+        
+          </form>
+        </div>
+        <br>
+
+           <code>
+            HTML Sample Code: <br>
+            &lt;form action="/action_page.php"&gt;<br>
+            &lt;input type="radio" id="Golden"&gt;
+            &lt;label for="Golden"&gt;Golden &lt;/label&gt;<br>
+            &lt;input type="radio" id="Special"&gt;
+            &lt;label for="Special"&gt;Special &lt;/label&gt;<br>
+            &lt;input type="radio" id="Remix"&gt;
+            &lt;label for="Remix"&gt;Remix &lt;/label&gt;
+        </code>
+      </section>
+
+      <!-- A image as a link  -->
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+      
+        <a href="https://www.youtube.com/watch?v=d1REzQ75COs"><img src="https://f4.bcbits.com/img/a1228324630_10.jpg" alt="Sunset" style="width:300px;height:300px;"></a>
+
+        <h4>Album preview, click to listen to the trial.</h4>
+
+        <code>
+            HTML Sample Code: <br>
+            &lt;a href="https://www.youtube.com/watch?v=d1REzQ75COs" &gt;&lt;img scr="https://f4.bcbits.com/img/a1228324630_10.jpg" alt="Sunset" style="width:300px;height:300px;"&gt;<br>
+        </code>
+
+      </section>
+    
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+
+     <section class="element">
+      
+      <h3>Four level of headings</h3>
+
+    
+        <h2>HEADING 1 (Main Title)</h2>
+        <h3>HEADING 2 (Section Header)</h3>
+        <h4>HEADING 3 (Sub Section Header)</h4>
+        <h5>HEADINH 4 (Secondary Subsection Header)</h5>
+
+         <code>
+            HTML Sample Code: <br>
+            &lt;h1&gt;HEADING1 &lt;/h1&gt;<br>
+            &lt;h2&gt;HEADING2 &lt;/h2&gt;<br>
+            &lt;h3&gt;HEADING3 &lt;/h3&gt;<br>
+            &lt;h4&gt;HEADING4 &lt;/h4&gt;<br>
+        </code>
+      </section>
+
+      <!-- A paragraph -->
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <code>
+            HTML Sample Code: <br>
+            &lt;p&gt;Lorem ipsum dolor sit amet.....&lt;/p&gt;<br>
+          
+          </code>
+
+      </section>
+
+      <!-- A Numbered lists-->
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol class="Graphik">
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+          </ol>
+          <code class="container-item html code-box">
+            HTML Sample Code:<br>
+            &lt;ol class="numbered_list"&gt;<br>
+            &nbsp;&lt;li&gt;List item&lt;/li&gt;<br>
+            &nbsp;&lt;li&gt;List item&lt;/li&gt;<br>
+            &nbsp;&lt;li&gt;List item&lt;/li&gt;<br>
+            &lt;/ol&gt;
+          </code>
+
+
+      </section>
+
+
+
+    </section>
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section class="element">
+      <h2>Combined Elements</h2>
+
+      <!-- Main Navigation-->
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <nav>
+        <!--
+        <div>
+          <img src="img/logo.png" alt="logo" class="logo">
+        </div>
+      -->
+
+       <ul>        
+        <li><a href="#Home">HOME</a></li>
+        <li><a href="#New">NEW</a></li>
+        <li><a href="#Collection">COLLECTION</a></li>
+        <li><a href="#Chart">CHART</a></li>
+        <li><a href="#Contact">CONTACT</a></li>
+      </ul>
+      </nav>
+      </section>
+
+      <!-- Product Listing-->
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+
+        <div class= "product-listing-container">
+          <div class= "product-listing1">
+
+        <div class="image-container">
+        <img src= "https://f4.bcbits.com/img/a1228324630_10.jpg" class="product-img" alt="productImage">
+
+        </div>
+       <p class="album-name">Sunset Rollercoaster - Jinji Kikko <br>(Full EP) 2016</p>
+       <a href="#" class="Album-Preview">Album preview</a>
+       <p class="Product-Price">$29.99</p>
+       
+       <a href="#" class="item-button">Add to cart</a> <div class="padding30"></div> 
+       
+
+       
+       <a href="#" class="item-button">Buy it now</a>
+         </div>
+       <div class="product-listing2">
+          <table>
+            <tr>
+              <th> Songs </th> <th></th>
+            </tr>
+
+            <tr>
+              <th> 1. </th> <th>Burgundy Red <p class="padding">6:18 Warner/Chappell Music Taiwan Ltd.</p></th>
+            </tr>
+
+            <tr>
+              <th> 2. </th> <th>My Jinji <p class="padding"> 6:41 Warner/Chappell Music Taiwan Ltd.</p></th>
+            </tr>
+
+            <tr>
+              <th> 3. </th> <th>New Drug <p class= "padding">4:45</p> </th>
+            </tr>
+          </table>
+
+
+
+       </div>
+
+       </div>
+
+     
+
+      </section>
+
+      <!-- Payment Form-->
+
+      <section class="element">
+        <h3>Payment Form</h3>
+        <h4>Billing Address</h4>
+        <div class = "Graphik">
+
+        <form>
+        <label > First Name:</label>
+        <div class="padding30"></div>
+        <input type = "text" id= "fName" name="FfName"><div class="padding30"></div>
+
+        <label> Last Name:</label>
+        <div class="padding30"></div>
+        <input type = "text" id= "lName" name="LlName"><div class="padding30"></div>
+
+        <label> Email:</label>
+         <div class="padding30"></div>
+        <input type = "text" id= "Email" name="Email"><div class="padding30"></div>
+
+        <label> Address: </label>
+         <div class="padding30"></div>
+        <input type = "text" id= "Address" name="Address"><div class="padding30"></div>
+
+         <label> City:</label>
+         <div class="padding30"></div>
+        <input type = "text" id= "City:" name="City"><div class="padding30"></div>
+
+        <label> Country:</label>
+         <div class="padding30"></div>
+        <input type = "text" id= "Country:" name="Country"><div class="padding30"></div>
+
+        <label> ZIP:</label>
+         <div class="padding30"></div>
+        <input type = "text" id= "ZIP:" name="ZIP"><div class="padding30"></div>
+        </form>
+
+        </div>
+
+        <div>
+                  <a href="#" class="item-button">Next</a>
+                  <div class="padding30"></div>
+                  <a href="#" class="item-button">Back</a>
+        </div>
+
+        <h4>Payment Method</h4>
+
+          <form class = "Graphik" action="/action_page.php">
+
+
+
+          <label class="radio">Visa
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          </label>
+          <label class="radio">Master
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+          </label>
+          <label class="radio">Pay Pal
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+          </label>
+          <label class="radio">American Express
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+          </label>
+          <div class="padding30"></div>
+
+        </form>
+        <form>
+
+        <label>Name on Card:</label>
+        <br>
+        <input type = "text" id= "NameonCard" name="NameonCard"><div class="padding30"></div>
+
+        <label>Card Number:</label>
+         <br>
+        <input type = "text" id= "CardNumber" name="CardNumber"><div class="padding30"></div>
+
+        <label>Exp Date:</label>
+         <br>
+        <input type = "text" id= "ExpDate" name="ExpDate"><div class="padding30"></div>
+
+        <label>CVV:</label>
+         <br>
+        <input type = "text" id= "CVV" name="CVV"><div class="padding30"></div>
+
+       </form>
+
+
+        <div>
+                  <a href="#" class="item-button">Next</a>
+                  <br>
+                  <br>
+                  <a href="#" class="item-button">Back</a>
+        </div>
+
+
+
+      </section>
+
+      <!-- Checkout Cart-->
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+         <div class="image-container">
+        <img src= "https://f4.bcbits.com/img/a1228324630_10.jpg" class="product-img" alt="productImage">
+
+          </div>
+          <div class = "padding30"></div>
+                <div class="textAline">
+                    <p class="album-name">Version: A</p>
+                    <p class="album-name">Amount: 1</p>
+                    <p class="album-name">Total: $ 00.00</p>
+                  </div>
+
+                     <a href="#" class="item-button">Remove</a>
+                 <div class="padding30"></div>
+                  <a href="#" class="item-button">Check Out</a>
+
+
+
+     
+
+    </section>
+
+      </section>
+
+  
+   
+
+  
+      <h2>Basic Branding Ideas</h2>
+      <section class="element">
+      <h3>About the Company</h3>
+      <h4>Gamut Record is an online vinyl record store that strives to provide niche records with good-looking cover design. The overall genre of the long-lasting records selling in the store would be jazz, alternative and downtempo music. Helping audiences to have a visual sense of music is one of the dominant values of Gamut Record in terms of attracting customers’ choices. As the target customers of Gamut Record is female-centred, visual appealing is an essential factor for females to consider when making shopping decision.</h4>
+
+      </section>
+     <section class="element">
+      <h3>Potential Customers</h3>
+      <h4>The target customers for Gamut Record are young people (mainly female) aged from 20-35, interested in long-playing record collection espcailly those with good-looking cover design. </h4>
+      </section>
+     <section class="element">
+      <h3>Features that attract customers</h3>
+      <h4>Visual appealing record is one of the biggest adventages makes Gamut Record stand out from those regular record stores. </h4>
+      </section>
+
+
+
+  <section class="element">
+      <h2>Assemble Brand Compnents</h2>
+
+    
+    <section class="element">
+
+      <h3>Font</h3>
+      <div class="back">
+      <p class= "Avenir">Avenir</p>
+      <p class= "Avenir">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+      <p class= "Avenir">abcdefghijklmnopqrstuvwxyz</p>
+      <p class= "Avenir">#1234567890</p>
+      <p class= "Avenir">The font Avenir will be used in Heading, subheading, button and some short text area since it is a scan serif font, it fits the overall design which is clean and tidy.</p>
+     </div>
+     
+     
+     <div class="back">
+      <p class= "Graphik">Graphik</p>
+      <p class= "Graphik">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+      <p class= "Graphik">abcdefghijklmnopqrstuvwxyz</p>
+      <p class= "Graphik">#1234567890</p>
+      <p class= "Graphik">The font Graphik will be used in long paragraph, such as album description since it is a serif font, it would be better for readibility when having a relavtive long paragraph.</p>
+    </div>
+   
+   </section>
+
+     <section class="element">
+
+      <h3>Colour Palettes</h3>
+
+          
+              <div class="light-grey">
+                <p>Grey </p>
+              
+                <p>#666666</p>
+                <p>rgb( 204, 204, 204)</p>
+                <p>Heading & Title & Navigation Bar Background</p>
+              </div>
+              <div class="grey">
+                <p>Light Grey</p>
+                <p>#73777f</p>
+                <p>rgb( 115, 119, 127)</p>
+                <p>Sub heading & Sub title </p>
+              </div>
+              <div class="purple">
+                <p>Purple</p>
+                <p>#A078C8</p>
+                <p>rgb(160,120,200)</p>
+                <p>Design element & Button & Hover effect</p>
+              </div>
+              <div class="BluishV">
+                <p>Bluish Violet</p>
+                <p>#9999CC</p>
+                <p>rgb(153, 153, 204)</p>
+                <p>In-text Link focus effect</p>
+              </div>
+          
+      </section>
+
+ 
+
+  <section class="element"> 
+
+      <h3>Potential imagery</h3>
+
+      <div class= "image-display-container">
+
+       <div class="image-container1">
+        <img src= "https://f4.bcbits.com/img/a1228324630_10.jpg" class="product-img" alt="productImage">
+       </div>
+
+        <div class="image-container1">
+        <img src= "https://i.kfs.io/album/global/43283511,0v1/fit/500x500.jpg" class="product-img" alt="productImage">
+       </div>
+
+        <div class="image-container1">
+        <img src= "https://i.pinimg.com/originals/b4/75/00/b4750046d94fed05d00dd849aa5f0ab7.jpg" class="product-img" alt="productImage">
+       </div>
+
+     </div>
+
+      <div class= "image-display-container">
+
+       <div class="image-container1">
+        <img src= "https://f4.bcbits.com/img/a1150400946_16.jpg" class="product-img" alt="productImage">
+       </div>
+
+        <div class="image-container1">
+        <img src= "https://f4.bcbits.com/img/a2038608335_16.jpg" class="product-img" alt="productImage">
+       </div>
+
+        <div class="image-container1">
+        <img src= "https://creators-images.vice.com/content-images/contentimage/no-slug/32b467be1ad9b7c6db2671bc3ffd69ab.jpg" class="product-img" alt="productImage">
+       </div>
+
+     </div>
+
+       <code class="container-item html code-box">
+            The above images are used for album cover.
+          </code>
+
+
+
+  </section>
+
+  <section class="element"> 
+
+       <h3>Icon Design</h3>
+
+        <div>
+          <img src="img/logo.png" alt="logo" class="logo">
+        </div>
+
+           
+      </section>
+    </section>
+
+
+
+
+
+
+     <section class="element">
+      <h2>Citations</h2>
+      <ul>   
+                <li>Sunset Rollercoaster - JINJI KIKKO Album Cover. 2016.<strong>[Photo]</strong>. Retrieved from <a href=" https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCn4ViNXLm4M&psig=AOvVaw1-IlKFKZUfvI0MFpyhCCB7&ust=1601054089203000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCrmsKlguwCFQAAAAAdAAAAABAO">https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCn4ViNXLm4M&psig=AOvVaw1-IlKFKZUfvI0MFpyhCCB7&ust=1601054089203000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCrmsKlguwCFQAAAAAdAAAAABAO</a >.</li>
+
+               
+
+                <li>Sunset Rollercoaster - Travel Agency Album Cover. 2018. <strong>[Website]</strong>. Retrieved from <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kkbox.com%2Ftw%2Ftc%2Falbum%2FbARMEnS0nfuDj0F2.7Gr009H-index.html&psig=AOvVaw1-IlKFKZUfvI0MFpyhCCB7&ust=1601054089203000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCrmsKlguwCFQAAAAAdAAAAABAD">https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kkbox.com%2Ftw%2Ftc%2Falbum%2FbARMEnS0nfuDj0F2.7Gr009H-index.html&psig=AOvVaw1-IlKFKZUfvI0MFpyhCCB7&ust=1601054089203000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCrmsKlguwCFQAAAAAdAAAAABAD</a >.</li>
+
+              
+
+                <li>Frank Oeacn - Blonded Album Cover. 2016. <strong>Poppins [Font]</strong>. Retrieved from <a href="https://www.pinterest.ca/pin/477240891753341533/?nic_v2=1a14IuptT">https://www.pinterest.ca/pin/477240891753341533/?nic_v2=1a14IuptT</a ></li>
+
+                
+
+                 <li>Coldplay - Parachutes Album Cover. (Studio Album). 2000. <strong>Poppins [Font]</strong>. Retrieved from <a href="https://creators-images.vice.com/content-images/contentimage/no-slug/32b467be1ad9b7c6db2671bc3ffd69ab.jpg">https://creators-images.vice.com/content-images/contentimage/no-slug/32b467be1ad9b7c6db2671bc3ffd69ab.jpg</a ></li>
+
+               
+
+                <li>Sunset Rollercoaster - Cassa Nove Album Cover. (Digital Album). 2018. <strong>Poppins [Font]</strong>. Retrieved from <a href="https://f4.bcbits.com/img/a2038608335_16.jpg">https://f4.bcbits.com/img/a2038608335_16.jpg</a ></li>
+
+               
+
+                <li>Sunset Rollercoaster - Villa Album Cover. (Digital Album). 2019. <strong>Poppins [Font]</strong>. Retrieved from <a href="https://f4.bcbits.com/img/a1150400946_16.jpg">https://f4.bcbits.com/img/a1150400946_16.jpg</a ></li>
+
+                <li>Christian, Ruderman, Haratzopoulos. Designer. (2009.). <strong>Graphik[Font]</strong>. </li>
+
+               
+
+                <li>Chahine, Frutiger. Designer. (2019.). <strong>Avenir [Font]</strong>. </li>
+
+
+                
+                <!-- <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a >.</li> -->
+       </ul>
+    </section>
+
+
+  </body>
+</html>
