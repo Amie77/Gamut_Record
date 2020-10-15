@@ -386,10 +386,10 @@ select.expirydate{
 }
 
 input[type='radio']:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: 0px;
     left: -1px;
     position: relative;
     background-color: #d1d3d1;
@@ -404,10 +404,10 @@ input[type='radio']:hover {
 }
 
 input[type='radio']:checked:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: 0px;
     left: -1px;
     position: relative;
     background-color: #04E78B;
