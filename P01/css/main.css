@@ -105,7 +105,7 @@ button{
     border-radius: 4px;
 }
 button:hover{
-    background-color: #393734;
+    background-color: #96fa00;
     color: #ffffff;
     transition-property: all; 
     transition-duration: 0.5s;
