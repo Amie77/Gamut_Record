@@ -1,0 +1,588 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0;
+    height: 100%;
+}
+
+/* Code Reference:  https://jonitrythall.com/flexbox-cheatsheet*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+p {
+    width: 75%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75%
+}
+
+
+/* Code Reference: https://stackoverflow.com/questions/8184958/add-space-between-html-elements-only-using-css */
+
+section {
+    margin-top: 5%;
+    width: 100%;
+}
+
+section+section {
+    margin-top: 10%
+}
+
+@media screen and (max-width: 425px) {
+    section+section {
+        margin-top: 20%
+    }
+}
+
+a:hover {
+    color: #FFCDD2;
+}
+
+a:focus {
+    color: #FFC95D;
+}
+
+
+/* Navigation bar*/
+
+
+/* Code Reference: https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/ */
+
+.contain {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.contain-item {
+    flex: 1;
+}
+
+.contain-item a {
+    text-align: center;
+    margin-left: 6.5vw;
+    margin-top: 2vh;
+    padding: 0.3rem 0.3rem 0 0.3rem;
+    border: 0.3rem dashed rgba(255, 255, 255, 0);
+}
+
+
+/* Code reference for hover and focus: 
+https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/ */
+
+.contain-item a:hover {
+    color: pink;
+    padding: 0.3rem 0.3rem 0 0.3rem;
+    border: 0.3rem dashed #000;
+}
+
+.navigation-bar a:focus {
+    color: #FFC95D;
+}
+
+@media screen and (max-width: 400px) {
+    .contain-item {
+        flex-basis: 100%;
+    }
+}
+
+
+/* Category */
+
+.category {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.category .content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.text-div {
+    margin-top: 10vh;
+}
+
+.small-div {
+    margin-top: 5vh;
+}
+
+
+/* Hero Code Reference:  https://www.w3schools.com/howto/howto_css_hero_image.asp*/
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero {
+    /* Image created by myself */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("source/Records.jpg");
+    height: 73vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.herohead {
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.herohead h1 {
+    font-size: 15vh;
+    transform: translate(0%, -105%);
+    margin-top: 15vh;
+    width: 100%;
+}
+
+.herohead p {
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(17%, 0%);
+    margin-top: 20vh;
+}
+
+@media screen and (max-width: 750px) {
+    .box {
+        margin-top: 7vh;
+    }
+    .herohead h1 {
+        font-size: 5vh;
+        transform: translate(0%, -50%);
+        margin-top: 0vh;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .herohead p {
+        font-size: 1.5rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(17%, 50%);
+        margin-top: 44vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .herohead p {
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+    .herohead h1 {
+        font-size: 9vh;
+        transform: translate(0%, -70%);
+        margin-top: 4vh;
+    }
+    .herohead p {
+        font-size: 1.5rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(17%, 0%);
+        margin-top: 36vh;
+    }
+}
+
+
+/* Sample Code Section */
+
+.box-code {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sample {
+    margin-top: 5vh;
+    width: 75%;
+}
+
+.first {
+    margin-top: 80vh;
+}
+
+
+/* Product List */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 40%;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.page {
+    background-color: #FFC95D;
+}
+
+
+/* Item Code Reference: https://www.w3schools.com/howto/howto_css_product_card.asp */
+
+.item {
+    box-shadow: 0 4px 8px 0 rgba(81, 154, 246, 0.2);
+    max-width: 100%;
+    text-align: center;
+}
+
+
+/* Border Code Reference: https://stackoverflow.com/questions/20289535/styling-image-link-in-focus */
+
+.item img {
+    max-width: 98%;
+    border: 0.2em dashed rgba(0, 0, 0, 0);
+}
+
+a:hover img {
+    border: 0.2rem dashed #000;
+}
+
+a:focus img {
+    opacity: 0.5;
+}
+
+.album {
+    text-align: center;
+}
+
+.musician {
+    font-size: 22px;
+}
+
+.item-price {
+    color: grey;
+    font-size: 22px;
+}
+
+.item button {
+    border: none;
+    outline: 0;
+    padding: 1rem;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    color: white;
+    background-color: #519AF6;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 2vh;
+}
+
+.item button:hover {
+    opacity: 0.7;
+}
+
+.item button:focus {
+    opacity: 0.7;
+    background-color: #04E78B;
+}
+
+
+/* Shopping Cart */
+
+
+/* Code Reference: https://designmodo.com/shopping-cart-ui/*/
+
+#cart {
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    padding: 0px 0px;
+    height: 13vh;
+    display: flex;
+}
+
+.delete {
+    position: relative;
+    padding-top: 3vh;
+    margin-left: 30vw;
+    margin-right: 10vw;
+}
+
+.delete button {
+    Cursor: pointer;
+}
+
+.delete button:hover {
+    background-color: #FF4534;
+}
+
+.delete button:focus {
+    background-color: #04E78B;
+}
+
+.description {
+    padding-top: 3vh;
+    margin-right: 0.5vw;
+    margin-left: 5vw;
+    width: 25vw;
+}
+
+.description h3 {
+    display: block;
+    color: black;
+}
+
+.cart-price {
+    width: 3vw;
+    margin-top: 5vh;
+    text-align: center;
+    color: #43484D;
+}
+
+.payment {
+    margin-top: 5vh;
+    margin-left: 6%;
+}
+
+.payment span {
+    font-weight: 800;
+}
+
+.payment p {
+    font-style: italic;
+}
+
+
+/* Radio Button Custom Code Reference: 
+https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons */
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:hover {
+    opacity: 0.5;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #04E78B;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    opacity: 1;
+}
+
+
+/* Button Reference: https://www.w3schools.com/howto/howto_css_product_card.asp */
+
+.payment button {
+    border: none;
+    outline: 0;
+    padding: 1rem;
+    margin-bottom: 10%;
+    color: white;
+    background-color: #519AF6;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.payment button:hover {
+    opacity: 0.7;
+}
+
+.payment button:focus {
+    opacity: 0.7;
+    background-color: #04E78B;
+}
+
+
+/* Media Query for Shopping Cart */
+
+@media (max-width: 600px) {
+    #cart {
+        width: 90%;
+        height: auto;
+    }
+    .item {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .description {
+        width: 100%;
+        text-align: center;
+        padding-top: 3vh;
+        margin-right: 0.5vw;
+        margin-left: 2vw;
+        width: 25vw;
+    }
+    .cart-price {
+        width: 3vw;
+        margin-top: 5.5vh;
+        text-align: center;
+        color: #43484D;
+    }
+    .buttons {
+        margin-left: 5vw;
+        margin-top: 2vh;
+    }
+    .payment {
+        margin-top: 5vh;
+        margin-left: 6%;
+    }
+}
+
+
+/* Abo{ut Us: Ordered List */
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.genre-list-item {
+    text-align: left;
+}
+
+@media screen and (min-width: 675px) {
+    .genre-list {
+        margin-right: 70%;
+    }
+}
+
+
+/* Contact Input Field */
+
+
+/* Coder Reference for the four input styles below: 
+https://www.w3schools.com/cssref/sel_focus.asp */
+
+input[type=text]:focus {
+    background-color: #FFC95D;
+}
+
+input[type=email]:focus {
+    background-color: #FFC95D;
+}
+
+input[type=text]:hover {
+    outline: none !important;
+    border: 1px solid #519AF6;
+    box-shadow: 0 0 10px #519AF6;
+}
+
+input[type=email]:hover {
+    outline: none !important;
+    border: 1px solid #519AF6;
+    box-shadow: 0 0 10px #519AF6;
+}
+
+
+/* Contact Buttons */
+
+.contact-buttons button {
+    border: none;
+    outline: 0;
+    padding: 0.3rem;
+    margin-bottom: 10%;
+    color: white;
+    background-color: #519AF6;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-buttons button:hover {
+    opacity: 0.7;
+}
+
+.contact-buttons button:focus {
+    opacity: 0.7;
+    background-color: #04E78B;
+}
+
+.contact-buttons button[type=submit] {
+    margin-right: 2vw;
+}
+
+
+/* Branding */
+
+.block {
+    flex-basis: 15em;
+    flex-grow: 2;
+}
+
+.pot-img {
+    width: 30%;
+}
+
+.pot-img-link {
+    display: inline-block;
+}
+
+
+/* Citation List */
+
+.citations li {
+    margin-top: 10vh;
+    width: 75%;
+}
