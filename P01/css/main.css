@@ -417,7 +417,7 @@ input[type='radio']:checked:after {
     top: 0px;
     left: -1px;
     position: relative;
-    background-color: #04E78B;
+    background-color: #ed442e;
     content: '';
     display: inline-block;
     visibility: visible;
