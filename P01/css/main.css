@@ -93,7 +93,6 @@ a.intext_link:hover{
 /* Styling for the submit/reset button */
 button{
     padding: 1em 4em;
-    border: 2px solid #ffffff;
     font-size: 12pt;
     margin-right: 5%;
 }
