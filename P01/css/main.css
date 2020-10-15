@@ -106,7 +106,7 @@ button{
 }
 button:hover{
     background-color: #96fa00;
-    color: #ffffff;
+    color: #282828;
     transition-property: all; 
     transition-duration: 0.5s;
     font-weight: 800;
