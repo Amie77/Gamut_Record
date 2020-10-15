@@ -95,12 +95,14 @@ button{
     padding: 1em 4em;
     font-size: 12pt;
     margin-right: 5%;
+    border: none;
 }
 button:hover{
     background-color: #393734;
     color: #ffffff;
     transition-property: all; 
     transition-duration: 0.5s;
+    border: none;
 }
 
 /* Styling for the Text Input Field with Label */
