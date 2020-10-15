@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>P01 Process - Style Guide</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css" title="sytle" type="text/css" media="all"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0s">
+
+        <!-- add new google font -->
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    </head>
+
+    <body>
+        <header> <!-- begin of Header nav -->
+            <h1>P01 Process - Style Guide</h1>
+
+            <div class="main_nav">
+                <nav>
+                    <ul>
+                        <li class ="menu"><a href= "index.html" >STYLE GUIDE</a ></li>
+                        <li class ="menu"><a href= "product_list.html" >PRODUCT LISTING PAGE</a ></li>
+                        <li class ="menu"><a href= "checkout.html" >CHECKOUT PAGE</a ></li>
+                        <li class ="menu"><a href= "citation.html" >CITATIONS</a ></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <p>A style guide can use to start building out our own company web. We contain these elements:</p>
+      
+            <nav>        
+              <a class="intext_link" href="#interactive_elements">Interactive Elements</a>
+              <a class="intext_link" href="#text_elements">Text Elements</a>
+              <a class="intext_link" href="#combined_elements">Combined Elements</a>
+              <a class="intext_link" href="#basic_branding_ideas">Basic Branding Ideas</a>
+              <a class="intext_link" href="#assemble_brand_components">Assemble Brand Components</a>
+              <a class="intext_link" href="#citations">Citations</a>
+            </nav>
+
+        </header> <!-- end of Header nav -->
+
+        <!-- START OF INTERACTIVE ELEMENTS SECTION // -->
+        <section id="interactive_elements" class="main_section">
+            <h2 class="section_heading">Interactive Elements</h2>
+
+            <!-- start of in-text link styling section -->
+            <section class="element">
+                <h3 class="element_heading">In-text link</h3>
+                <div class="element_content">
+                    <p>This is an <a class="intext_link" href="#">in-text link</a>.</p>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;p&gt;This is an &lt;a class=&quot;intext_link&quot; href=&quot;#&quot;&gt;in-text link&lt;/a&gt;.&lt;/p&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of in-text link styling section -->
+
+            <!-- start of Navigation link styling section -->
+            <section class="element">
+                <h3 class="element_heading">Navigation Link</h3>
+                <div class="element_content">
+                    <a class="button-nav" href="#">Default Button</a>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Navigation link styling section -->
+
+            <!-- start of Submit/Reset Buttons styling section -->
+            <section class="element">
+                <h3 class="element_heading">Submit/Reset Buttons</h3>
+                <div class="element_content">
+                    <form action="/">
+                        <button type="submit" value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Reset</button>
+                    </form>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;form action="/"&gt;
+                        <br>&nbsp;
+                        &lt;button type="submit" value="Submit"&gt;Submit&lt;/button&gt;
+                        <br> &nbsp;
+                        &lt;button type="reset" value="Reset"&gt;Reset&lt;/button&gt;
+                        <br>
+                        &lt;/form&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Submit/Reset Buttons styling section -->
+
+            <!-- start of Text Input Field with Label styling section -->
+            <section class="element">
+                <h3 class="element_heading">Text Input Field with Label</h3>
+                <div class="element_content">
+                    <form action="/">
+                        <label class="form_text">Name :</label>
+                        <input type="text" placeholder="Jo Zhou">
+                    </form>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;form action="/"&gt;
+                        <br>&nbsp;
+                        &lt;label&gt;Name:&lt;/label&gt;
+                        &lt;input type="text" placeholder="Jo Zhou"&gt;
+                        <br>
+                        &lt;/form&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Text Input Field with Label styling section -->
+
+            <!-- start of Radio Button with Label styling section -->
+            <section class="element">
+                <h3 class="element_heading">Radio Button with Label</h3>
+                <div class="element_content">
+                    <form action="/">
+                        <label class="form_text">Gender :</label>
+			            <label class="form_radio"><input type="radio" name="sex">  Male </label>
+		    	        <label class="form_radio"><input type="radio" name="sex"> Female </label>
+                    </form>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;form action="/"&gt;
+                        <br>&nbsp;
+                        &lt;label class="form_text"&gt;Gender :&lt;/label&gt;
+                        <br>&nbsp;
+                        &lt;label class="form_radio"&gt;&lt;input type="radio" name="sex"&gt;  Male &lt;/label&gt;
+                        <br>&nbsp;
+		    	        &lt;label class="form_radio"&gt;&lt;input type="radio" name="sex"&gt; Female &lt;/label&gt;
+                        <br>
+                        &lt;/form&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Radio Button with Label styling section -->
+
+            <!-- start of Image as a Link styling section -->
+            <section class="element">
+                <h3 class="element_heading">Image as a Link</h3>
+                <div class="element_content">
+                    <p>Click the image below to see detail.</p>
+                    <a class="imageLink" href="#">
+                        <img class="record" src = "img/record.jpg" alt = "photo"/>
+                        <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                    </a>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;a class="imageLink" href="#"&gt;
+                        <br>&nbsp;
+                        &lt;img class="record" src = "img/record.jpg" alt = "photo"/&gt;
+                        <br>
+                        &lt;/a&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Image as a Link styling section -->
+
+        </section>
+        <!-- END OF INTERACTIVE ELEMENTS SECTION // -->
+
+        <!-- START OF TEXT ELEMENTS SECTION // -->
+        <section id="text_elements" class="main_section">
+            <h2 class="section_heading">Text Elements</h2>
+
+            <!-- start of Headings section -->
+            <section class="element">
+                <h3 class="element_heading">Headings</h3>
+                <div class="element_content">
+                    <h1>heading1: for top title</h1>
+                    <h2 class="section_heading">heading2: for section title</h2>
+                    <h3 class="element_heading">heading3: for element title</h3>
+                    <h4 class="code_heading">heading4: for sub element title</h4>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;h1&gt;heading1&lt;/h1&gt; <br>
+                        &lt;h2 class="section_heading"&gt;heading2&lt;/h2&gt; <br>
+                        &lt;h3 class="element_heading"&gt;heading3&lt;/h3&gt; <br>
+                        &lt;h4 class="code_heading"&gt;heading4&lt;/h4&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Headings section -->
+
+            <!-- start of Paragraphs section -->
+            <section class="element">
+                <h3 class="element_heading">Paragraphs</h3>
+                <div class="element_content">
+                    <p>This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph.
+                        This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph.
+                    </p>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;p&gt;This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph.
+                            This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph.
+                        &lt;/p&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Paragraphs section -->
+
+            <!-- start of Numbered Lists section -->
+            <section class="element">
+                <h3 class="element_heading">Numbered Lists</h3>
+                <div class="element_content">
+                    <ol>
+                        <li>disc.1</li>
+                        <li>disc.2</li>
+                        <li>disc.3</li>
+                    </ol>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;ol&gt; <br>&nbsp;
+                        &lt;li&gt;disc.1&lt;/li&gt; <br>&nbsp;
+                        &lt;li&gt;disc.2&lt;/li&gt; <br>&nbsp;
+                        &lt;li&gt;disc.3&lt;/li&gt; <br>
+                        &lt;/ol&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Numbered Lists section -->
+
+        </section>
+        <!-- END OF TEXT ELEMENTS SECTION // -->
+
+        <!-- START OF COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements" class="main_section">
+            <h2 class="section_heading">Combined Elements</h2>
+
+            <!-- start of Main Navigation section -->
+            <section class="element">
+                <h3 class="element_heading">Main Navigation</h3>
+
+                <div class="main_nav">
+                    <nav>
+                        <ul>
+                            <li class ="menu"><a href= "#combined_elements" >HOME</a ></li>
+                            <li class ="menu"><a href= "#combined_elements" >ABOUT US</a ></li>
+                            <li class ="menu"><a href= "#combined_elements" >NEW REALEASE</a ></li>
+                            <li class ="menu"><a href= "#combined_elements" >BESTSELLERS</a ></li>
+                            <li class ="menu"><a href= "#combined_elements" >VINYL</a ></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="element_code">
+                    <h4 class="code_heading">Sample code:</h4>
+                    <code class="code_content">
+                        &lt;nav&gt; <br>&nbsp;
+                            &lt;ul&gt; <br>&nbsp; &nbsp;
+                                &lt;li class ="menu"&gt;&lt;a href= "#combined_elements" &gt;HOME&lt;/a &gt;&lt;/li&gt; <br>&nbsp; &nbsp;
+                                &lt;li class ="menu"&gt;&lt;a href= "#combined_elements" &gt;ABOUT US&lt;/a &gt;&lt;/li&gt; <br>&nbsp; &nbsp;
+                                &lt;li class ="menu"&gt;&lt;a href= "#combined_elements" &gt;NEW REALEASE&lt;/a &gt;&lt;/li&gt; <br>&nbsp; &nbsp;
+                                &lt;li class ="menu"&gt;&lt;a href= "#combined_elements" &gt;BESTSELLERS&lt;/a &gt;&lt;/li&gt; <br>&nbsp; &nbsp;
+                                &lt;li class ="menu"&gt;&lt;a href= "#combined_elements" &gt;VINYL&lt;/a &gt;&lt;/li&gt; <br>&nbsp; 
+                            &lt;/ul&gt; <br>
+                        &lt;/nav&gt;
+                    </code>
+                </div>
+            </section>
+            <!-- end of Main Navigation section -->
+
+            <!-- start of Product/Service Listing section -->
+            <section class="element">
+                <h3 class="element_heading">Product/Service Listing</h3>
+
+                <div class="pList">
+                    <div class="single_product">
+                        <div class="listing_info">
+                            <figure class="product_img">
+                                <a class="imageLink" href="#">
+                                    <img class="product_record" src = "img/record2.jpg" alt = "item"/>
+                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                                </a>
+                            </figure>
+
+                            <h2 class="list_heading"><a class="intext_link" href="#">Viva La Vida Or Death And All His Friends - 2008</a></h2>
+                            <p class="product_info">Coldplay</p>
+                            <h3 class="product_price">$ 36.00</h3>
+                        </div>
+
+                        <div class="listing_add">
+                            <a class="button-nav" href="">Add to cart</a>
+                            <p class="product_info_stock">In stock</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="single_product">
+                        <div class="listing_info">
+                            <figure class="product_img">
+                                <a class="imageLink" href="#">
+                                    <img class="product_record" src = "img/record2.jpg" alt = "item"/>
+                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                                </a>
+                            </figure>
+
+                            <h2 class="list_heading"><a class="intext_link" href="#">Viva La Vida Or Death And All His Friends - 2008</a></h2>
+                            <p class="product_info">Coldplay</p>
+                            <h3 class="product_price">$ 36.00</h3>
+                        </div>
+
+                        <div class="listing_add">
+                            <a class="button-nav" href="">Add to cart</a>
+                            <p class="product_info_out">Out of stock</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="single_product">
+                        <div class="listing_info">
+                            <figure class="product_img">
+                                <a class="imageLink" href="#">
+                                    <img class="product_record" src = "img/record2.jpg" alt = "item"/>
+                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                                </a>
+                            </figure>
+
+                            <h2 class="list_heading"><a class="intext_link" href="#">Viva La Vida Or Death And All His Friends - 2008</a></h2>
+                            <p class="product_info">Coldplay</p>
+                            <h3 class="product_price">$ 36.00</h3>
+                        </div>
+
+                        <div class="listing_add">
+                            <a class="button-nav" href="">Add to cart</a>
+                            <p class="product_info_stock">In stock</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- end of Product/Service Listing section -->
+
+            <!-- start of Product/Service Detail section -->
+            <section class="element">
+                <h3 class="element_heading">Product/Service Detail</h3>
+
+                <div class="product">
+                    <figure class="product_img">
+                        <img class="product_record" src = "img/record.jpg" alt = "item"/>
+                        <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                    </figure>
+            
+                    <div class="product_text">
+                        <h2 class="product_heading">Album</h2>
+                        <div>
+                            <p class="product_info">Artist: Name</p>
+                            <p class="product_info">Release date: 2019 Mar.xx</p>
+                        </div>
+                        <div>
+                            <h3 class="product_price">$ 30.00</h3>
+                        </div>
+                        <div class="product_option">
+                            <p class="product_info">Formats:</p>
+                            <div class="product_option">
+                                <p class="product_choice"><a href="">CD</a></p>
+                                <p class="product_choice"><a href="">Vinyl</a></p>
+                            </div>
+                        </div>
+                        <div class="product_quantity">
+                            <form>
+                                <label class="product_info">Quantity: </label> 
+                                <select name="Quantity">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                              <option value="24">24</option>
+                              <option value="25">25</option>
+                              <option value="26">26</option>
+                              <option value="27">27</option>
+                              <option value="28">28</option>
+                              <option value="29">29</option>
+                              <option value="30">30</option>
+                              <option value="31">31</option>
+                              <option value="32">32</option>
+                              <option value="33">33</option>
+                              <option value="34">34</option>
+                              <option value="35">35</option>
+                              <option value="36">36</option>
+                              <option value="37">37</option>
+                              <option value="38">38</option>
+                              <option value="39">39</option>
+                              <option value="40">40</option>
+                              <option value="41">41</option>
+                              <option value="42">42</option>
+                              <option value="43">43</option>
+                              <option value="44">44</option>
+                              <option value="45">45</option>
+                              <option value="46">46</option>
+                              <option value="47">47</option>
+                              <option value="48">48</option>
+                              <option value="48">49</option>
+                              <option value="50">50</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div>
+                            <a class="button-nav" href="">Add to cart</a>
+                            <a class="button-nav" href="">+ wish list</a>
+                            <p class="product_info">availability: In stock</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- end of Product/Service Detail section -->
+
+            <!-- start of Payment Form section -->
+            <section class="element">
+                <h3 class="element_heading">Payment Form</h3>
+
+                <div class="payment_form">
+                    <form>
+                        <div class="payment">
+                          <label>Card type:</label>
+                          <input type="radio" id="visa" name="cardtype" value="visa">
+                          <label>Visa</label>
+                          <input type="radio" id="mastercard" name="cardtype" value="mastercard">
+                          <label>Mastercard</label>
+                        </div>
+                        <div class="payment">
+                          <label>
+                            Name on the card: 
+                            <input class="text" type="text" placeholder="First name  Last name">
+                          </label>
+                        </div>
+                        <div class="payment">
+                          <label>
+                            Card number: 
+                            <input class="text" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
+                          </label>
+                        </div>
+                        <div class="payment">
+                          <label>Expiry date: </label>
+                          <select name="expirydate" class="expirydate">
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                          </select>
+                          <label> / </label>
+                          <select name="expirydate" class="expirydate">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                          </select>
+                        </div>
+                        <div class="payment">
+                          <label>CVC/CVV: </label>
+                          <input type="text" placeholder="XXX">
+                        </div>
+                        <div class="payment">
+                            <button type="submit" value="Submit">Submit</button>
+                          <label>
+                            <input type="checkbox" name="remember"> Remember this card
+                          </label>
+                        </div>
+                      </form>
+                    
+                </div>
+            </section>
+            <!-- end of Payment Form section -->
+
+            <!-- start of Checkout Cart section -->
+            <section class="element">
+                <h3 class="element_heading">Checkout Cart</h3>
+
+                <div class="checkout_cart">
+                    <div class="cart">
+                        <h2>Shopping Cart</h2>
+                
+                        <div class="cart_item">
+                            <div class="cart_list">
+                                <p class="cart_list_item">Item</p>
+                                <p class="cart_list_price">Price</p>
+                                <p class="cart_list_quantity">Quantity</p>
+                                <p class="cart_list_total">Total</p>
+                            </div>
+                            <div class="cart_item_record">
+                                <figure class="cart_img">
+                                    <img class="product_record" src = "img/record.jpg" alt = "item"/>
+                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                                </figure>
+                                <div class="cart_text">
+                                    <div class="cart_info">
+                                        <h3>Record name</h3>
+                                        <p class="price">$20.00</p>
+                                        <form class="cart_info_q">
+                                            <select name="Quantity">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                            <option value="32">32</option>
+                                            <option value="33">33</option>
+                                            <option value="34">34</option>
+                                            <option value="35">35</option>
+                                            <option value="36">36</option>
+                                            <option value="37">37</option>
+                                            <option value="38">38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                            <option value="42">42</option>
+                                            <option value="43">43</option>
+                                            <option value="44">44</option>
+                                            <option value="45">45</option>
+                                            <option value="46">46</option>
+                                            <option value="47">47</option>
+                                            <option value="48">48</option>
+                                            <option value="48">49</option>
+                                            <option value="50">50</option>
+                                            </select>
+                                        </form>
+                                        <p class="total">$20.00</p>
+                                    </div>
+                                    <div class="cart_control">
+                                        <p><a class="intext_link" href="">Remove</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_item_record">
+                                <figure class="cart_img">
+                                    <img class="product_record" src = "img/record.jpg" alt = "item"/>
+                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                                </figure>
+                                <div class="cart_text">
+                                    <div class="cart_info">
+                                        <h3>Record name</h3>
+                                        <p class="price">$20.00</p>
+                                        <form class="cart_info_q">
+                                            <select name="Quantity">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                            <option value="32">32</option>
+                                            <option value="33">33</option>
+                                            <option value="34">34</option>
+                                            <option value="35">35</option>
+                                            <option value="36">36</option>
+                                            <option value="37">37</option>
+                                            <option value="38">38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                            <option value="42">42</option>
+                                            <option value="43">43</option>
+                                            <option value="44">44</option>
+                                            <option value="45">45</option>
+                                            <option value="46">46</option>
+                                            <option value="47">47</option>
+                                            <option value="48">48</option>
+                                            <option value="48">49</option>
+                                            <option value="50">50</option>
+                                            </select>
+                                        </form>
+                                        <p class="total">$20.00</p>
+                                    </div>
+                                    <div class="cart_control">
+                                        <p><a class="intext_link" href="">Remove</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order_summary">
+                            <h2>Order Summary</h2>
+                            <div class="order_summary_subtotal">
+                                <p>Subtotal</p>
+                                <p>$55.00</p>
+                            </div>
+                            <div class="order_summary_shipping">
+                                <p>Shipping</p>
+                                <p>$5.00</p>
+                            </div>
+                            <div class="order_summary_tax">
+                                <p>Tax</p>
+                                <p>tbd</p>
+                            </div>
+                            <div class="order_summary_total">
+                                <p>Total</p>
+                                <p>$60.00</p>
+                            </div>
+                            <a class="button-nav" href="#">Default Button</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of Checkout Cart section -->
+
+        </section>
+        <!-- END OF COMBINED ELEMENTS SECTION // -->
+
+        <!-- START OF Basic Branding Ideas SECTION // -->
+        <section id="basic_branding_ideas" class="main_section">
+            <h2 class="section_heading">Basic Branding Ideas</h2>
+
+            <section class="element">
+                <h3 class="element_heading">What does the company do, or offer?</h3>
+
+                <div class="element_content">
+                    <p>Our company is an online record/album company, called Gamut Record. 
+                        We offer online order and deliver. We sold records and albums including CDs and vinyls.
+                    </p>
+                </div>
+            </section>
+
+            <section class="element">
+                <h3 class="element_heading">Who is the company to potential customers?</h3>
+
+                <div class="element_content">
+                    <p>Our main potential customers are music lovers, including fans of singers or idols and vinyl collectors.</p>
+                </div>
+            </section>
+
+            <section class="element">
+                <h3 class="element_heading">Why might this company entice someone to purchase a product or service</h3>
+
+                <div class="element_content">
+                    <p>We offer a 30-second listening preview to make sure users can find their favorite music. 
+                        At the same time we are an online purchase with home delivery Service. We can provide convenience to customers, 
+                        so that they can order their favorite album anywhere at anytime.
+                    </p>
+                </div>
+            </section>
+
+        </section>
+        <!-- END OF Basic Branding Ideas SECTION // -->
+
+        <!-- START OF Assemble Brand Components SECTION // -->
+        <section id="assemble_brand_components" class="main_section">
+            <h2 class="section_heading">Assemble Brand Components</h2>
+
+            <section class="element">
+                <h3 class="element_heading">Fonts</h3>
+
+                <div class="element_content">
+                    <p class="poppins">Poppins: use for different levels of headings</p>
+                    <p class="roboto">Roboto: use for content and paragraphs</p>
+                </div>
+            </section>
+
+            <section class="element">
+                <h3 class="element_heading">Colour Palettes</h3>
+
+                <div class="element_content_color">
+                    <div class="color">
+                        <div class="color_fill1">
+                            <h3 class="color_text">#282828</h3>
+                        </div>
+                        <p class="color_explain"> This color is use for main background color.</p>
+                    </div>
+                    <div class="color">
+                        <div class="color_fill2">
+                            <h3 class="color_text">#393734</h3>
+                        </div>
+                        <p class="color_explain">This color is use for sub background color. In this website I use it as background
+                            color for sample code. </p>
+                    </div>
+                    <div class="color">
+                        <div class="color_fill3">
+                            <h3 class="color_text">#ed442e</h3>
+                        </div>
+                        <p class="color_explain">This color is use for section title, the primary heading. </p>
+                    </div>
+                    <div class="color">
+                        <div class="color_fill4">
+                            <h3 class="color_text">#96fa00</h3>
+                        </div>
+                        <p class="color_explain">This color is use for element title, the secondary heading. </p>
+                    </div>
+                    <div class="color">
+                        <div class="color_fill5">
+                            <h3 class="color_text">#949494</h3>
+                        </div>
+                        <p class="color_explain">This color is use for for sub element title, the sub secondary heading. </p>
+                    </div>
+                    <div class="color">
+                        <div class="color_fill6">
+                            <h3 class="color_text">#fffff</h3>
+                        </div>
+                        <p class="color_explain">This color is use for for paragraph, the content of this web. </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="element">
+                <h3 class="element_heading">Potential imagery, and, or, art direction</h3>
+
+                <div class="element_content">
+                    <img class="Potential_imagery" src = "img/Potential_imagery1.jpg" alt = "Potential_imagery1"/>
+                    
+                </div>
+            </section>
+
+        </section>
+        <!-- END OF Assemble Brand Components SECTION // -->
+
+        <!-- START OF Citations SECTION // -->
+         <section id="citations" class="main_section">
+            <h2 class="section_heading">Citations</h2>
+
+            <ul>   
+                <li>Cardona, N. Photographer. 2017. <strong>[Photo]</strong>. Retrieved from <a href="https://unsplash.com/photos/W8BRzoUTHNA">https://unsplash.com/photos/W8BRzoUTHNA</a>.</li>
+                <li>Coldplay - Viva La Vida Or Death And All His Friends. 1970, January 01. <strong>[Website]</strong>. Retrieved from <a href="https://www.discogs.com/Coldplay-Viva-La-Vida-Or-Death-And-All-Of-His-Friends/master/26600">https://www.discogs.com/Coldplay-Viva-La-Vida-Or-Death-And-All-Of-His-Friends/master/26600</a>.</li>
+                <li>Indian Type Foundry. Designer. (n.d.). <strong>Poppins [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Poppins?query=Poppins&selection.family=Roboto#standard-styles">https://fonts.google.com/specimen/Poppins?query=Poppins&selection.family=Roboto#standard-styles</a></li>
+                <li>Robertson, Christian. Designer. (n.d.). <strong>Roboto [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Roboto?query=robo&selection.family=Roboto#standard-styles">https://fonts.google.com/specimen/Roboto?query=robo&selection.family=Roboto#standard-styles</a></li>
+                <li>Trovato, G. Photographer. 2020. <strong>[Photo]</strong>. Retrieved from <a href="https://unsplash.com/photos/PdtApuzR_IQ">https://unsplash.com/photos/PdtApuzR_IQ</a>.</li>
+                <!-- <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li> -->
+            </ul>
+
+        </section>
+        <!-- END OF Assemble Brand Components SECTION // -->
+
+    </body>
+</html>
