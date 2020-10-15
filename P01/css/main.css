@@ -165,7 +165,7 @@ nav{
     flex-wrap: wrap;
 }
 
-nav a::before{
+li.menu>a::before{
   content:'  ';
   display: block;
   height:5px;
@@ -176,7 +176,7 @@ nav a::before{
   transition: all ease-in-out 250ms;
 }
 
-nav a:hover::before{
+li.menu>a:hover::before{
   width:100%;
 }
 
