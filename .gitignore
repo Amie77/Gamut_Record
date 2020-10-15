@@ -1,0 +1,5 @@
+*.DS_Store
+
+#exclude jpeg and jpg
+*.jpeg
+*.jpg
