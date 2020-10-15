@@ -588,6 +588,50 @@ h3.color_text{
     width: 30%;
 }
 
+.text{
+  color:white;
+  font-weight:500;
+  font-family: Graphik;
+  position:relative;
+  top:51.5%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.playbutton-img{
+ width:100%;
+ height:100%;
+}
+
+.image-container{
+  justify-content: center;
+  display:flex;
+  position:relative;
+  width:100%;
+
+}
+
+.image-container:hover .overlay{
+  opacity:0.8;
+}
+
+.overlay{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:97%;
+  width:30%;
+  opacity:0;
+  transition:.5s ease;
+  background-color:#9999CC;
+
+}
+
+
+
 @media only screen and (max-width:455px) {
     p,a,li,li.menu>a,form,h3.color_text{
         font-size: 13px;
