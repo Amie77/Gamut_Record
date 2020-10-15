@@ -94,6 +94,7 @@ a.intext_link:hover{
 button{
     padding: 1em 4em;
     font-size: 12pt;
+    font-weight: 800;
     margin-right: 5%;
     border: none;
 }
@@ -102,6 +103,7 @@ button:hover{
     color: #ffffff;
     transition-property: all; 
     transition-duration: 0.5s;
+    font-weight: 800;
     border: none;
 }
 
