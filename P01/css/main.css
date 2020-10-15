@@ -205,10 +205,6 @@ li.menu{
     transition-property: background-color; 
     transition-duration: 1s;
 }
-li.menu:hover{
-    
-    
-}
 
 li.menu:hover a{
     color: #96fa00;
