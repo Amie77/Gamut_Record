@@ -8,7 +8,7 @@
 
 .hero {
     /* Image created by myself */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("Records.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("src/Records.jpg");
     height: 73vh;
     width: 100%;
     background-position: center;
