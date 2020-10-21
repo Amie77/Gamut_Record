@@ -169,7 +169,7 @@ div.main_nav{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    border: 2px solid white;
+    background-color:rgb(50,50,50);
 }
 nav{
     width: 100%;
